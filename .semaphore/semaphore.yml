@@ -18,7 +18,6 @@ blocks:
       prologue:
         commands:
           - checkout
-          - nvm use
           - node --version
       jobs:
         - name: yarn install
